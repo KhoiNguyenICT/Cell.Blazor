@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components" Version="5.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.Forms" Version="5.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="BarcodeGenerator\" />
+		<Folder Include="Buttons\" />
+		<Folder Include="Buttons.Internal\" />
+		<Folder Include="Calendars\" />
+		<Folder Include="Calendars.Internal\" />
+		<Folder Include="Cards\" />
+		<Folder Include="Charts\" />
+		<Folder Include="CircularGauge\" />
+		<Folder Include="Data\" />
+		<Folder Include="Diagrams\" />
+		<Folder Include="Diagrams.Internal\" />
+		<Folder Include="DocumentEditor\" />
+		<Folder Include="DocumentEditorContainer\" />
+		<Folder Include="DropDowns\" />
+		<Folder Include="DropDowns.Internal\" />
+		<Folder Include="FileManager\" />
+		<Folder Include="Gantt\" />
+		<Folder Include="Grids\" />
+		<Folder Include="Grids.Internal\" />
+		<Folder Include="Grids.Internal.Editors\" />
+		<Folder Include="HeatMap\" />
+		<Folder Include="InPlaceEditor\" />
+		<Folder Include="Inputs\" />
+		<Folder Include="Inputs.Internal\" />
+		<Folder Include="Inputs.Internal.Slider\" />
+		<Folder Include="Internal\" />
+		<Folder Include="Kanban\" />
+		<Folder Include="Kanban.Internal\" />
+		<Folder Include="Layouts\" />
+		<Folder Include="Layouts.Internal\" />
+		<Folder Include="LinearGauge\" />
+		<Folder Include="LinearGauge.Internal\" />
+		<Folder Include="Lists\" />
+		<Folder Include="Lists.Internal\" />
+		<Folder Include="Maps\" />
+		<Folder Include="Navigations\" />
+		<Folder Include="Navigations.Internal\" />
+		<Folder Include="TreeMap.Internal\" />
+		<Folder Include="TreeMap\" />
+		<Folder Include="TreeGrid.Internal\" />
+		<Folder Include="TreeGrid\" />
+		<Folder Include="SplitButtons.Internal\" />
+		<Folder Include="SplitButtons\" />
+		<Folder Include="Spinner.Internal\" />
+		<Folder Include="Spinner\" />
+		<Folder Include="Schedule.Internal\" />
+		<Folder Include="Schedule\" />
+		<Folder Include="RichTextEditor.Internal\" />
+		<Folder Include="RichTextEditor\" />
+		<Folder Include="QueryBuilder.Internal\" />
+		<Folder Include="QueryBuilder\" />
+		<Folder Include="ProgressBar\" />
+		<Folder Include="Popups.Internal\" />
+		<Folder Include="Popups\" />
+		<Folder Include="PivotView.Internal\" />
+		<Folder Include="PivotView\" />
+		<Folder Include="PdfViewer.Internal\" />
+		<Folder Include="PdfViewer\" />
+		<Folder Include="Notifications.Internal\" />
+		<Folder Include="Notifications\" />
+	</ItemGroup>
+</Project>
