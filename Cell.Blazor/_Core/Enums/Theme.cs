@@ -1,6 +1,15 @@
 ﻿namespace Cell.Blazor._Core.Enums
 {
-    internal class Theme
+    public enum Theme
     {
+        Material,
+        Bootstrap,
+        HighContrastLight,
+        Fabric,
+        MaterialDark,
+        FabricDark,
+        HighContrast,
+        BootstrapDark,
+        Bootstrap4,
     }
 }

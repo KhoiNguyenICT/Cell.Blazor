@@ -1,6 +1,9 @@
-﻿namespace Cell.Blazor._Core.Interface
+﻿using Microsoft.AspNetCore.Http;
+
+namespace Cell.Blazor._Core.Interface
 {
-    internal class ICellBlazor
+    public interface ICellBlazor
     {
+        HttpContext GetContext();
     }
 }

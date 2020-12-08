@@ -1,6 +1,11 @@
-﻿namespace Cell.Blazor._Core.Interface
+﻿using System.Resources;
+
+namespace Cell.Blazor._Core.Interface
 {
-    internal class ICellStringLocalizer
+    public interface ICellStringLocalizer
     {
+        string GetText(string key);
+
+        ResourceManager ResourceManager { get; }
     }
 }

@@ -12,6 +12,11 @@
 		<PackageReference Include="Microsoft.AspNetCore.Components" Version="5.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.Forms" Version="5.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Primitives" Version="5.0.0" />
+		<PackageReference Include="Microsoft.JSInterop" Version="5.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -23,7 +28,6 @@
 		<Folder Include="Cards\" />
 		<Folder Include="Charts\" />
 		<Folder Include="CircularGauge\" />
-		<Folder Include="Data\" />
 		<Folder Include="Diagrams\" />
 		<Folder Include="Diagrams.Internal\" />
 		<Folder Include="DocumentEditor\" />
@@ -40,7 +44,6 @@
 		<Folder Include="Inputs\" />
 		<Folder Include="Inputs.Internal\" />
 		<Folder Include="Inputs.Internal.Slider\" />
-		<Folder Include="Internal\" />
 		<Folder Include="Kanban\" />
 		<Folder Include="Kanban.Internal\" />
 		<Folder Include="Layouts\" />

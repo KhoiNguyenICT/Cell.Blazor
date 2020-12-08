@@ -1,6 +1,15 @@
-﻿namespace Cell.Blazor._Core.Class
+﻿using System.ComponentModel;
+using System.Text.Json.Serialization;
+
+namespace Cell.Blazor._Core.Class
 {
-    internal class DropDownListLocale
+    [EditorBrowsable(EditorBrowsableState.Never)]
+    public class DropDownListLocale
     {
+        [JsonPropertyName("noRecordsTemplate")]
+        public string NoRecordsTemplate { get; set; } = "No records found";
+
+        [JsonPropertyName("actionFailureTemplate")]
+        public string ActionFailureTemplate { get; set; } = "Request failed";
     }
 }

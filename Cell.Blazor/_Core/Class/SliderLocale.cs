@@ -1,6 +1,15 @@
-﻿namespace Cell.Blazor._Core.Class
+﻿using System.ComponentModel;
+using System.Text.Json.Serialization;
+
+namespace Cell.Blazor._Core.Class
 {
-    internal class SliderLocale
+    [EditorBrowsable(EditorBrowsableState.Never)]
+    public class SliderLocale
     {
+        [JsonPropertyName("incrementTitle")]
+        public string IncrementTitle { get; set; } = "Increase";
+
+        [JsonPropertyName("decrementTitle")]
+        public string DecrementTitle { get; set; } = "Decrease";
     }
 }
